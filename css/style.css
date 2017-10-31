@@ -152,8 +152,31 @@ img, video, audio, iframe, table, form {
   left:0;
   width: 100%;
   z-index: 2;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+
 }
 
+#navbar {
+  border-left: 1px solid #ccc;
+}
+
+#navbar nav a{
+  display: inline-block;;
+  width: 16.6666%;
+  margin: 0;
+  padding: 22px 0;
+  color: black;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  text-decoration: none;
+  font: 1em "Trebuchet MS", Arial, sans-serif;
+}
+
+#navbar nav a.selected {
+  background: #333
+  
+}
 /*////////// LOGO //////////*/
 
 
