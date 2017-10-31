@@ -154,7 +154,6 @@ img, video, audio, iframe, table, form {
   z-index: 2;
   border-bottom: 1px solid #ccc;
   text-align: center;
-
 }
 
 #navbar {
@@ -166,6 +165,7 @@ img, video, audio, iframe, table, form {
   width: 16.6666%;
   margin: 0;
   padding: 22px 0;
+  text-transform: uppercase;
   color: black;
   text-align: center;
   border-right: 1px solid #ccc;
